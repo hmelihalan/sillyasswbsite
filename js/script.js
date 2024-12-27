@@ -18,6 +18,10 @@ function sayNo() {
   document.getElementById("responseMessage").textContent = "Nuh-uh 🤓☝️ ,you can’t say no! Try again! 😊";
   document.getElementById("responseMessage").style.display = "block";
 
-  // Show a different GIF when "No" is clicked
-  document.getElementById("gifContainer").innerHTML = '<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDRiamliNjg2MWdzdW1qOHhhMmU2cHJnbXBnOWNoamc5M25iYnV3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IglQkzvuewsoD6E1Pj/giphy.gif" alt="Exciting animation" class="gif-display">';
+  // Show a YouTube video when "No" is clicked
+  document.getElementById("gifContainer").innerHTML = `
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/watch?v=MnihB_GwY3c&ab_channel=YigitRistyy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  `;
 }

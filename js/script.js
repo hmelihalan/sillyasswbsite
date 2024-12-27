@@ -21,7 +21,7 @@ function sayNo() {
   // Show a YouTube video when "No" is clicked
   document.getElementById("gifContainer").innerHTML = `
     <div class="video-container">
-      <iframe src="https://www.youtube.com/watch?v=MnihB_GwY3c&ab_channel=YigitRistyy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/LOMrEEAM1xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   `;
 }

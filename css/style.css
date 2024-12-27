@@ -120,22 +120,6 @@ button:active {
   }
 }
 
-/* GIF/Video Container */
-.gif-container {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-/* Make GIF bigger by setting a larger width */
-.gif-display {
-  width: 400px; /* Increased size */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 1s ease-out; /* Add fade-in effect for GIF */
-}
-
 /* Video Container to maintain aspect ratio */
 .video-container {
   position: relative;
